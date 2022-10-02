@@ -10,9 +10,15 @@ public class Main {
         tree.root.right = new Node(2L);
 
         tree.root.left.left = new Node(10L);
+        tree.root.left.right = new Node(4L);
 
+        tree.inOrderTraversal(tree.root);
+        tree.postOrderTraversal(tree.root);
+        tree.preOrderTraversal(tree.root);
 
-
+        System.out.println(tree.inOrderTraversalNode);
+        System.out.println(tree.postOrderTraversalNode);
+        System.out.println(tree.preOrderTraversalNode);
 
         System.out.println("Inside main method");
     }

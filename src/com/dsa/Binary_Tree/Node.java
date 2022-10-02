@@ -5,7 +5,7 @@ package src.com.dsa.Binary_Tree;
  */
 public class Node {
 
-    private Long nodeValue;
+     Long nodeValue;
      Node left, right;
 
     /**
